@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(90deg, rgb(83, 83, 83), rgb(0, 0, 0));
+    display: flex;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 25px;
+    max-width: 300px;
+}
+
+.screen{
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 30px;
+    text-align: right;
+    padding: 2%;
+}
+
+.screen:hover{
+    background-color: inherit;
+    color: white;
+    transition: all 0.25s;
+}
+
+.cal-buttons{
+    width: auto;
+    display: flex;
+}
+
+.cal-button{
+    font-size: 30px;
+    margin: 2%;
+    width: 96%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.cal-button:active{
+    background-color: aqua;
+}
+
+.cal-button:hover{
+    background-color: inherit;
+    color: white;
+    transition: all 0.25s;
+}
+
+.cal-button:last-child{
+    background-color: rgb(245, 124, 124);
+    border: 1px solid rgb(117, 11, 11);
+}
+
+.cal-button:last-child:hover{
+    background-color: rgb(245, 124, 124, 0.5);
+    border: 1px solid rgb(117, 11, 11);
+}

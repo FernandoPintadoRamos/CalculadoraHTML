@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Fernando Pintado Ramos</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="screen">
+            <p id="actual_number">0</p>
+        </div>
+
+        <div class="cal-buttons">
+            <button class="cal-button" onclick="reset()">
+                C
+            </button>
+
+            <button class="cal-button" onclick="del()">
+                &larr;
+            </button>
+
+            <button class="cal-button" onclick="calc('/')">
+                &divide;
+            </button>
+        </div>
+
+        <div class="cal-buttons">
+            <button class="cal-button" onclick="setNumber('9')">
+                9
+            </button>
+
+            <button class="cal-button" onclick="setNumber('8')">
+                8
+            </button>
+
+            <button class="cal-button" onclick="setNumber('7')">
+                7
+            </button>
+
+            <button class="cal-button" onclick="calc('*')">
+                &times;
+            </button>
+        </div>
+
+        <div class="cal-buttons">
+            <button class="cal-button" onclick="setNumber('6')">
+                6
+            </button>
+
+            <button class="cal-button" onclick="setNumber('5')">
+                5
+            </button>
+
+            <button class="cal-button" onclick="setNumber('4')">
+                4
+            </button>
+
+            <button class="cal-button" onclick="calc('-')">
+                &minus;
+            </button>
+        </div>
+
+        <div class="cal-buttons">
+            <button class="cal-button" onclick="setNumber('3')">
+                3
+            </button>
+
+            <button class="cal-button" onclick="setNumber('2')">
+                2
+            </button>
+
+            <button class="cal-button" onclick="setNumber('1')">
+                1
+            </button>
+
+            <button class="cal-button" onclick="calc('+')">
+                &plus;
+            </button>
+        </div>
+
+        <div class="cal-buttons">
+            <button class="cal-button" onclick="setNumber('0')">
+                0
+            </button>
+
+            <button class="cal-button" onclick="result()">
+                &equals;
+            </button>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>
